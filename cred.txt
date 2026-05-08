@@ -1,2 +1,0 @@
-user.email=vyshnavipatoju@gmail.com
-user.name=Vyshu-jessy
