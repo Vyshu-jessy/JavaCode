@@ -5,7 +5,7 @@ class Calc{
 }
 class AdvCalc extends Calc{
     public int add(int a,int b){
-        return a+b+2;
+        return a+b+2;//we need to do that to make it different from the add method in the Calc class
     }
 }
 public class Calculator{
