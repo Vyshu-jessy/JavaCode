@@ -6,13 +6,13 @@ class Fact{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number");
         f=sc.nextLong();
-        while(f>0){
-            fact=fact*f;
-            f=f-1;
-        }
-        // for(long i=1;i<=f;i++){
-        //     fact*=i;
+        // while(f>0){
+        //     fact=fact*f;
+        //     f=f-1;
         // }
+        for(long i=1;i<=f;i++){
+            fact*=i;
+        }
         System.out.println(fact);
     }
 }
